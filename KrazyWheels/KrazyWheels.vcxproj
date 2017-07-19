@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4B8CA9DB-548E-4AB1-B0D1-DD83CDA8EA42}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>KrazyWheels</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\KrazyProjectUtilities\glm-0.9.6.1\glm</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;opengl32.lib;glut32.lib;glew32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\KrazyProjectUtilities\glm-0.9.6.1\glm</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;opengl32.lib;glut32.lib;glew32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\GLeish.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyAlgoDiagnosticData_01Phase.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyAsset.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyAudioThriver.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyBackgroundTrack.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyBangToona.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyCache.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyClogDetector.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyColorDefinations.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDefaultAlgoMovingVehical_01Phase.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDoubleLaneRoadRendrer.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDutyKueue.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyEntryIndicatorCache.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyEntryIndicatorExtractionPolicy_01Phase.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyEnums.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyError.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyExitSequenceWindow.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGameRenderingPolicy_01Phase.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGanguniMovingPolicy_01Phase.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGenRendrer.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGLMInclusion.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyInterfaceGamePlayPolicy.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyKallbacks.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLaneNode.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelCityContextInterface.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelCityNetwork.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelListingWindow.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelRectsPlayTool.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelThriver.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelThriverWindow.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyMassiveText.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyMassiveTextWindow.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyMovingPlayerCarPolicy_01Phase.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyNetworkNodePTR.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyNodeTraverserIndexers.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyPauseWindow.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyPlayToolRect.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyPrimitiveDataCollections.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyProgramme.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRangToonaMovingPolicy_01Phase.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRedundentCallHelperMacros.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRedundentClassDeclarationMacros.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRes.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRouteThriver.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShadedDoubleLaneRendrer.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShadedVehicalRendrer.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShader.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazySherrifMovingPolicy_01Phase.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazySherrifTutorialMovingPolicy.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTextRendrer.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTextXML.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyThreadLock.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTool.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyToonaBrothersMovingPolicy_01Phase.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyToonaBrotherTutorialPolicy.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTrafficIndicator.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTutorialThriver.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaaFamily.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaBrothersMovingPolicy_01Phase.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaFamilyTutorialPolicy.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUNTanglers.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUtilityMacros.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehical.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalCache.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalGameplayStateMovingPolicy_01Phase.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalShades.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyViewPortContext.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWheelsRendrer.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindow.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindowController.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindowPreferance.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyXMLNode.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\Logger.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\stdafx.h" />
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\Vectors.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_1_and_2_Tutorial.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_3_Tutorial.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_4_Tutorial.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_5_Tutorial.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_Demo.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_Tutorial_1.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_1_XML.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_2_XML.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_3_XML.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_4_XML.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_5_XML.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_6_XML.h" />
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_7_XML.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyAsset.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyAudioThriver.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyBackgroundTrack.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyBangToona.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyClogDetector.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyColorDefinations.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDefaultAlgoMovingVehical_01Phase.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDoubleLaneRoadRendrer.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDutyKueue.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyEntryIndicatorCache.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyEntryIndicatorExtractionPolicy_01Phase.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyError.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyExitSequenceWindow.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGameRenderingPolicy_01Phase.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGanguniMovingPolicy_01Phase.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGenRendrer.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLaneNode.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelCityContextInterface.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelCityNetwork.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelListingWindow.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelThriver.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelThriverWindow.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyMassiveTextWindow.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyMovingPlayerCarPolicy_01Phase.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyPauseWindow.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyPlayToolRect.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyProgramme.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRangToonaMovingPolicy_01Phase.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRes.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRouteThriver.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShadedDoubleLaneRendrer.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShadedVehicalRendrer.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShader.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazySherrifMovingPolicy_01Phase.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazySherrifTutorialMovingPolicy.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTextRendrer.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTextXML.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyThreadLock.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTool.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyToonaBrothersMovingPolicy_01Phase.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyToonaBrotherTutorialPolicy.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTrafficIndicator.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTutorialThriver.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaaFamily.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaBrothersMovingPolicy_01Phase.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaFamilyTutorialPolicy.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUNTanglers.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehical.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalCache.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalGameplayStateMovingPolicy_01Phase.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalShades.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyViewPortContext.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWheelsRendrer.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindow.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindowController.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindowPreferance.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyXMLNode.cpp" />
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="KrazyWheels.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

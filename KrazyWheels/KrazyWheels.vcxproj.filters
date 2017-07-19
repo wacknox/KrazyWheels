@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="KrazyEngine">
+      <UniqueIdentifier>{40d511a6-c2f6-4887-a11d-3c88476a222d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KrazyEngine\KrazyEnginePolicy_01Phase">
+      <UniqueIdentifier>{b967cbca-6ee0-4f65-8fd6-11a957310d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KrazyEngine\KrazyLevelXML">
+      <UniqueIdentifier>{f2fa58d9-295e-48e4-af8f-d719a641d8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KrazyEngine\KrazyEnginePolicy_01Phase\Source">
+      <UniqueIdentifier>{7e211cdc-f667-4c0e-b9f6-57f1efcbe0da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KrazyEngine\KrazyEnginePolicy_01Phase\Header">
+      <UniqueIdentifier>{4b1d59af-789c-4b64-a15f-d8902241c515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KrazyEngine\KrazyLevelXML\Header">
+      <UniqueIdentifier>{2c470978-4890-4ec3-b5e8-ca9e23f87491}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\GLeish.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyAlgoDiagnosticData_01Phase.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyAsset.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyAudioThriver.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyBangToona.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyCache.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyClogDetector.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyColorDefinations.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDefaultAlgoMovingVehical_01Phase.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDoubleLaneRoadRendrer.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDutyKueue.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyEntryIndicatorCache.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyEntryIndicatorExtractionPolicy_01Phase.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyEnums.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyError.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyExitSequenceWindow.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGameRenderingPolicy_01Phase.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGanguniMovingPolicy_01Phase.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGenRendrer.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGLMInclusion.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyInterfaceGamePlayPolicy.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyKallbacks.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLaneNode.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelCityContextInterface.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelCityNetwork.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelListingWindow.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelRectsPlayTool.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelThriver.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelThriverWindow.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyMassiveText.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyMassiveTextWindow.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyMovingPlayerCarPolicy_01Phase.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyNetworkNodePTR.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyNodeTraverserIndexers.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyPauseWindow.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyPlayToolRect.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyPrimitiveDataCollections.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyProgramme.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRangToonaMovingPolicy_01Phase.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRedundentCallHelperMacros.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRedundentClassDeclarationMacros.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRes.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRouteThriver.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShadedDoubleLaneRendrer.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShadedVehicalRendrer.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShader.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazySherrifMovingPolicy_01Phase.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazySherrifTutorialMovingPolicy.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTextRendrer.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTextXML.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyThreadLock.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTool.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyToonaBrothersMovingPolicy_01Phase.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyToonaBrotherTutorialPolicy.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTrafficIndicator.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTutorialThriver.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaaFamily.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaBrothersMovingPolicy_01Phase.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaFamilyTutorialPolicy.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUNTanglers.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUtilityMacros.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehical.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalCache.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalGameplayStateMovingPolicy_01Phase.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalShades.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyViewPortContext.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWheelsRendrer.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindow.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindowController.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindowPreferance.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyXMLNode.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\Logger.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\stdafx.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\Vectors.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_1_XML.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_2_XML.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_3_XML.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_4_XML.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_5_XML.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_6_XML.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevel_7_XML.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_1_and_2_Tutorial.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_3_Tutorial.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_4_Tutorial.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_5_Tutorial.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_Demo.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyLevelXML\KrazyLevelXML_Tutorial_1.h">
+      <Filter>KrazyEngine\KrazyLevelXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyBackgroundTrack.h">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyWheels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyAsset.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyAudioThriver.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyBangToona.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyClogDetector.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyColorDefinations.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDefaultAlgoMovingVehical_01Phase.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDoubleLaneRoadRendrer.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyDutyKueue.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyEntryIndicatorCache.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyEntryIndicatorExtractionPolicy_01Phase.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyError.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyExitSequenceWindow.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGameRenderingPolicy_01Phase.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGanguniMovingPolicy_01Phase.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyGenRendrer.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLaneNode.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelCityContextInterface.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelCityNetwork.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelListingWindow.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelThriver.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyLevelThriverWindow.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyMassiveTextWindow.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyMovingPlayerCarPolicy_01Phase.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyPauseWindow.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyPlayToolRect.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyProgramme.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRangToonaMovingPolicy_01Phase.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRes.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyRouteThriver.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShadedDoubleLaneRendrer.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShadedVehicalRendrer.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyShader.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazySherrifMovingPolicy_01Phase.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazySherrifTutorialMovingPolicy.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTextRendrer.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTextXML.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyThreadLock.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTool.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyToonaBrothersMovingPolicy_01Phase.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyToonaBrotherTutorialPolicy.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTrafficIndicator.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyTutorialThriver.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaaFamily.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaBrothersMovingPolicy_01Phase.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUnaFamilyTutorialPolicy.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyUNTanglers.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehical.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalCache.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalGameplayStateMovingPolicy_01Phase.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyVehicalShades.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyViewPortContext.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWheelsRendrer.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindow.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindowController.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyWindowPreferance.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyXMLNode.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\stdafx.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KrazyEngine\KrazyEnginePolicy_01Phase\KrazyBackgroundTrack.cpp">
+      <Filter>KrazyEngine\KrazyEnginePolicy_01Phase\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
