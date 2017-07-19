@@ -1,4 +1,4 @@
-# KrazyWheels This is code conversion of the game "Krazy r wheels" which can be downloaded from Google Play , this code is converted by the help of glut,glew libraries
+# KrazyWheels This is code conversion of the game "Krazy r wheels" which can be downloaded from Google Play , this code is converted by the help of glut,glew libraries [from android to windows]
 
 Pre-requiste :-
 
